@@ -1,0 +1,35 @@
+name: iOS - só compilar (rápido)
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: macos-26
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - name: Compilar app e testes
+        run: |
+          set +e
+          mkdir -p out
+          XCODE=$(ls -d /Applications/Xcode_*.app 2>/dev/null | grep -vi beta | sort -V | tail -1)
+          sudo xcode-select -s "$XCODE"
+          brew install xcodegen >/dev/null
+          xcodegen generate
+          xcodebuild build-for-testing -project Expediente.xcodeproj -scheme Expediente \
+            -destination "generic/platform=iOS Simulator" -derivedDataPath build CODE_SIGNING_ALLOWED=NO > out/build.log 2>&1
+          echo "rc=$?" > out/STATUS.txt
+          grep -E "error:" out/build.log | sed "s#$GITHUB_WORKSPACE/##" | sort -u > out/errors.txt
+          cat out/STATUS.txt out/errors.txt
+      - name: Publicar
+        if: always()
+        run: |
+          cd out
+          git init -q -b check
+          git config user.name ci; git config user.email ci@users.noreply.github.com
+          git add -A; git commit -qm "check ${GITHUB_SHA}"
+          git push -qf "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" check:ci-check-${GITHUB_REF_NAME//\//-}
