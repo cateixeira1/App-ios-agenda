@@ -122,7 +122,7 @@ final class AuditLogTests: XCTestCase {
     func testChainIsIntactAndPersists() throws {
         let (log, vault, key, anchor) = try makeLog()
         try log.append(.loginPassword, actor: "Ana")
-        try log.append(.recordSigned, actor: "Ana", detail: "Paciente X")
+        try log.append(.reportExported, actor: "Ana", detail: "Cliente X")
         XCTAssertEqual(log.verify(), .intact)
         let reopened = try AuditLog(vault: vault, key: key, anchor: anchor)
         XCTAssertEqual(reopened.entries.count, 2)
