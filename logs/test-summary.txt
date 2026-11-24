@@ -1,0 +1,81 @@
+Test Case '-[ExpedienteTests.AreaAndReceiptTests testBusinessAreaReplacesUnusedTagsAndSetsTerm]' passed (0.051 seconds).
+Test Case '-[ExpedienteTests.AreaAndReceiptTests testEveryAreaHasTagsAndReturnOrReplacement]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.AreaAndReceiptTests testNumberWords]' passed (0.002 seconds).
+Test Case '-[ExpedienteTests.AreaAndReceiptTests testReceiptPDF]' passed (0.200 seconds).
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.254 (0.256) seconds
+Test Case '-[ExpedienteTests.AuditLogTests testChainIsIntactAndPersists]' passed (0.007 seconds).
+Test Case '-[ExpedienteTests.AuditLogTests testDeletedFileIsDetected]' passed (0.003 seconds).
+Test Case '-[ExpedienteTests.AuditLogTests testEditedEntryIsDetected]' passed (0.004 seconds).
+Test Case '-[ExpedienteTests.AuditLogTests testPendingFailuresEnterTheChain]' passed (0.016 seconds).
+Test Case '-[ExpedienteTests.AuditLogTests testRemovedEntryIsDetected]' passed (0.009 seconds).
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.039 (0.971) seconds
+Test Case '-[ExpedienteTests.CalendarRuleTests testBreaksAndMonthlySeries]' passed (0.048 seconds).
+Test Case '-[ExpedienteTests.CalendarRuleTests testNationalHolidays2026]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.CalendarRuleTests testPatientHistoryBadges]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.CalendarRuleTests testSeriesPlanAdjustsHolidays]' passed (0.720 seconds).
+Test Case '-[ExpedienteTests.CalendarRuleTests testTagDurationAndFirstSession]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.CalendarRuleTests testWeekendGoesToPreviousBusinessDay]' passed (0.007 seconds).
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.778 (0.781) seconds
+Test Case '-[ExpedienteTests.CertificateAndSigningTests testDpsIsSignedAndVerifies]' passed (0.102 seconds).
+Test Case '-[ExpedienteTests.CertificateAndSigningTests testGzipRoundTrip]' passed (0.005 seconds).
+Test Case '-[ExpedienteTests.CertificateAndSigningTests testOpensLegacyAndModernPfx]' passed (0.076 seconds).
+Test Case '-[ExpedienteTests.CertificateAndSigningTests testRejectsInvalidDps]' passed (0.012 seconds).
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.195 (0.197) seconds
+Test Case '-[ExpedienteTests.ChargeAndReminderTests testChargeMessageCarriesTotalAndPix]' passed (0.009 seconds).
+Test Case '-[ExpedienteTests.ChargeAndReminderTests testPlaces]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.ChargeAndReminderTests testRemindersBeforeEachAppointment]' passed (0.001 seconds).
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.011 (0.072) seconds
+Test Case '-[ExpedienteTests.CompatibilityTests testJSONBackupIsRecognized]' passed (0.059 seconds).
+Test Case '-[ExpedienteTests.CompatibilityTests testOldDataOpens]' passed (0.006 seconds).
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.065 (0.066) seconds
+Test Case '-[ExpedienteTests.FinanceTests testMoneyParsing]' passed (0.003 seconds).
+Test Case '-[ExpedienteTests.FinanceTests testSummary]' passed (0.004 seconds).
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.006 (0.008) seconds
+Test Case '-[ExpedienteTests.PackageTests testFinanceCountsPackagePaymentAndExpenses]' passed (0.003 seconds).
+Test Case '-[ExpedienteTests.PackageTests testPackageAppointmentsAreNotChargedAndUseTheBalance]' passed (0.003 seconds).
+Test Case '-[ExpedienteTests.PackageTests testScheduleSeriesFillsOnlyThePackageBalance]' passed (0.003 seconds).
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.009 (0.011) seconds
+Test Case '-[ExpedienteTests.PixTests testAmountNameAndCityAreNormalized]' passed (0.005 seconds).
+Test Case '-[ExpedienteTests.PixTests testCentralBankExample]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.PixTests testKeyRecognition]' passed (0.001 seconds).
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.008 (0.010) seconds
+Test Case '-[ExpedienteTests.RecordAndExportTests testBackupRoundTrip]' passed (0.073 seconds).
+Test Case '-[ExpedienteTests.RecordAndExportTests testPDFAndPassword]' passed (0.144 seconds).
+Test Case '-[ExpedienteTests.RecordAndExportTests testRichTextRoundTrip]' passed (0.001 seconds).
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.218 (0.220) seconds
+Test Case '-[ExpedienteTests.RichTextFormatTests testFontsStylesAndColorsRoundTrip]' passed (0.011 seconds).
+Test Case '-[ExpedienteTests.RichTextFormatTests testListPrefixes]' passed (0.003 seconds).
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.014 (0.016) seconds
+Test Case '-[ExpedienteTests.SchedulingTests testBiweeklyAndDefaultSpan]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.SchedulingTests testConflicts]' passed (0.002 seconds).
+Test Case '-[ExpedienteTests.SchedulingTests testEndOfDayReminder]' passed (0.002 seconds).
+Test Case '-[ExpedienteTests.SchedulingTests testMissedSessionsDoNotNeedNotes]' passed (0.096 seconds).
+Test Case '-[ExpedienteTests.SchedulingTests testNameMatcher]' passed (0.003 seconds).
+Test Case '-[ExpedienteTests.SchedulingTests testWeeklyRecurrenceKeepsWeekdayAndTime]' passed (0.001 seconds).
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.105 (0.108) seconds
+Test Case '-[ExpedienteTests.StoreTests testDataSurvivesReopen]' passed (0.004 seconds).
+Test Case '-[ExpedienteTests.StoreTests testPaymentFillsPrice]' passed (0.003 seconds).
+Test Case '-[ExpedienteTests.StoreTests testScheduleCancelAndReschedule]' passed (0.013 seconds).
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.020 (0.022) seconds
+Test Case '-[ExpedienteTests.VaultTests testAccentedPasswordNormalization]' passed (0.002 seconds).
+Test Case '-[ExpedienteTests.VaultTests testCreateAndUnlockWithPassword]' passed (0.003 seconds).
+Test Case '-[ExpedienteTests.VaultTests testPBKDF2KnownVector]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.VaultTests testRecoveryKeyEncodingRoundTrip]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.VaultTests testRecoveryKeyUnlocksAndResetsPassword]' passed (0.005 seconds).
+Test Case '-[ExpedienteTests.VaultTests testRegeneratedRecoveryKeyReplacesOldOne]' passed (0.003 seconds).
+Test Case '-[ExpedienteTests.VaultTests testSealedFilesAreNotReadableWithoutKey]' passed (0.003 seconds).
+Test Case '-[ExpedienteTests.VaultTests testShortPasswordIsRefused]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.VaultTests testWrongPasswordAndEmailAreRejected]' passed (0.003 seconds).
+	 Executed 9 tests, with 0 failures (0 unexpected) in 0.021 (0.179) seconds
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testButtonFromTodayOn]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testDefaultMessageAndLink]' passed (0.002 seconds).
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testMasks]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testMoneyMask]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testPriceByClientIgnoresTagPrice]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testReturnHasNoChargeUnlessPriced]' passed (0.044 seconds).
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testTagPriceComesBeforePatientAndDefaultPrice]' passed (0.003 seconds).
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testTodayFocusFollowsTheClock]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testWhatsAppMessageComesFromTagWhenSet]' passed (0.001 seconds).
+	 Executed 9 tests, with 0 failures (0 unexpected) in 0.053 (0.057) seconds
+	 Executed 64 tests, with 0 failures (0 unexpected) in 1.795 (3.066) seconds
+	 Executed 64 tests, with 0 failures (0 unexpected) in 1.795 (3.068) seconds

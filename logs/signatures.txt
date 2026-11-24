@@ -1,0 +1,6 @@
+total 16
+drwxr-xr-x  4 runner  wheel   128 Nov 24 06:07 .
+drwxrwxrwt  4 root    wheel   128 Nov 24 06:07 ..
+-rw-r--r--  1 runner  wheel   933 Nov 24 06:07 cert.der
+-rw-r--r--  1 runner  wheel  3338 Nov 24 06:07 dps.xml
+/tmp/expediente-ci/dps.xml: ASSINATURA VALIDA (valor=true, digest=true)

@@ -1,0 +1,73 @@
+== Devices ==
+-- iOS 26.2 --
+    iPhone 17 Pro (EED6FB0A-E273-43C6-B5DE-3DF739543042) (Shutdown) 
+    iPhone 17 Pro Max (0BF273CD-70D1-4646-BE79-A0E7EF224D18) (Shutdown) 
+    iPhone Air (80B56851-B786-47DE-8EE4-83ACFC3CD092) (Shutdown) 
+    iPhone 17 (44BD2F18-416F-4F70-B2C2-BE4EBA0C2F50) (Shutdown) 
+    iPhone 16e (16AFAE62-8F15-4D89-8041-9A6510AE4913) (Shutdown) 
+    iPad Pro 13-inch (M5) (70A7952C-F289-459B-8875-D154D551E8CB) (Shutdown) 
+    iPad Pro 11-inch (M5) (EEF7FA09-1BF7-4CA0-A381-5F0A883FF632) (Shutdown) 
+    iPad mini (A17 Pro) (706151BA-6C80-4F5B-97B9-6326F6122EB2) (Shutdown) 
+    iPad (A16) (6D181590-D19F-48F6-AC2F-8C98F5F77D34) (Shutdown) 
+    iPad Air 13-inch (M3) (2DA453A7-F093-478D-A736-C479712036A4) (Shutdown) 
+    iPad Air 11-inch (M3) (ABF743D3-A9E9-4317-BB4C-DDCFB58C38DE) (Shutdown) 
+-- iOS 26.4 --
+    iPhone 17 Pro (27012C89-9706-4CDE-88BB-4B380B6C743A) (Shutdown) 
+    iPhone 17 Pro Max (1F8E0003-51CF-4174-9E6D-318240CEC150) (Shutdown) 
+    iPhone 17e (43DAE57B-B4CA-4DCA-A549-1B77CCB00A5C) (Shutdown) 
+    iPhone Air (0D8D9D1E-9F70-4295-B4D0-A00F03A97002) (Shutdown) 
+    iPhone 17 (AC5CE080-DB21-4BF7-9D4E-7C217DE28A05) (Shutdown) 
+    iPad Pro 13-inch (M5) (2239CD22-6BE3-4D11-B927-9245F8915748) (Shutdown) 
+    iPad Pro 11-inch (M5) (01CB0E86-839C-47B2-B57E-9431B8B2C21C) (Shutdown) 
+    iPad mini (A17 Pro) (518E4C9C-4259-4885-AA50-B803C3DE2D05) (Shutdown) 
+    iPad Air 13-inch (M4) (D443F0B4-5BAC-4C52-B5C9-C4150281B9AF) (Shutdown) 
+    iPad Air 11-inch (M4) (0BA81479-0013-4163-9C1B-8657B690465D) (Shutdown) 
+    iPad (A16) (BB9BCE9B-E401-40A3-A0C1-F8B13C50F459) (Shutdown) 
+-- iOS 26.5 --
+    iPhone 17 Pro (6478AFFB-AE17-412A-A1E5-51BCFFD300B6) (Shutdown) 
+    iPhone 17 Pro Max (F90353E4-F95D-488C-9F4E-B43F74E385F2) (Shutdown) 
+    iPhone 17e (229240FC-DED4-405A-8908-553295E30D59) (Shutdown) 
+    iPhone Air (CE12A219-9F8C-4450-97EA-8C58715BECFC) (Shutdown) 
+    iPhone 17 (8EBAA496-5654-45BF-897F-3C4FD73935F1) (Shutdown) 
+    iPad Pro 13-inch (M5) (2A020491-3EBC-4783-8622-F8314CC00294) (Shutdown) 
+    iPad Pro 11-inch (M5) (E6D22F64-35F4-4792-92E9-462C0B7C23BA) (Shutdown) 
+    iPad mini (A17 Pro) (BB3AAE9A-1B8F-4B6F-B536-0744287562C8) (Shutdown) 
+    iPad Air 13-inch (M4) (A3140D84-3F55-44CB-A4E0-BB0E256CBD79) (Shutdown) 
+    iPad Air 11-inch (M4) (B93AC885-30EF-40D3-911E-AFBFE471286C) (Shutdown) 
+    iPad (A16) (2C358D2A-D903-489E-9517-1EE4B2273E04) (Shutdown) 
+-- tvOS 26.2 --
+    Apple TV 4K (3rd generation) (63B45A12-75AC-4FA4-AE34-BE1E2C14196F) (Shutdown) 
+    Apple TV 4K (3rd generation) (at 1080p) (74286D26-BFFC-4A61-B855-634354E1CF39) (Shutdown) 
+    Apple TV (32E1B934-2295-43DD-A080-EAF23DABF708) (Shutdown) 
+-- tvOS 26.4 --
+    Apple TV 4K (3rd generation) (522EE9C2-5C08-4081-87B5-8F17D9FCD6CF) (Shutdown) 
+    Apple TV 4K (3rd generation) (at 1080p) (DF1B7441-D6CE-48B6-A6B5-351E46497EA6) (Shutdown) 
+    Apple TV (5E4EFA76-7D18-4972-9DAB-8E03EAE0DE13) (Shutdown) 
+-- tvOS 26.5 --
+    Apple TV 4K (3rd generation) (EC7F705F-EDC9-4351-8306-5324BD71992F) (Shutdown) 
+    Apple TV 4K (3rd generation) (at 1080p) (AF39054D-CB23-4BAC-8652-64FB4A340BF9) (Shutdown) 
+    Apple TV (B1163D99-33E8-4D5D-8851-D5734FC03B64) (Shutdown) 
+-- watchOS 26.2 --
+    Apple Watch Series 11 (46mm) (FA98E058-26FD-459B-AC8C-164E32375536) (Shutdown) 
+    Apple Watch Series 11 (42mm) (0C478586-BCF7-4A08-AA74-FC273AAEC0D6) (Shutdown) 
+    Apple Watch Ultra 3 (49mm) (25E63F7F-2CBF-40F3-8E1F-CC6E4428DA8B) (Shutdown) 
+    Apple Watch SE 3 (44mm) (B10FC13E-28D3-450B-A822-8E4087A0F0D6) (Shutdown) 
+    Apple Watch SE 3 (40mm) (CA597FFE-DEA4-43CA-9964-036B36BD954C) (Shutdown) 
+-- watchOS 26.4 --
+    Apple Watch Series 11 (46mm) (8A1EC6E7-A5A2-4658-9D09-8539B3EC832E) (Shutdown) 
+    Apple Watch Series 11 (42mm) (3EE9C3F6-BB03-4F72-B53A-3090239B4EB1) (Shutdown) 
+    Apple Watch Ultra 3 (49mm) (9405C2AA-464E-467C-91CD-97471BB792DE) (Shutdown) 
+    Apple Watch SE 3 (44mm) (B5A0FFE2-0F67-4BA8-A6BF-4334A98A0F73) (Shutdown) 
+    Apple Watch SE 3 (40mm) (83283469-5929-4A35-9F9C-533E097FEC8F) (Shutdown) 
+-- watchOS 26.5 --
+    Apple Watch Series 11 (46mm) (DB083A7F-D21F-4520-891B-67112267A95D) (Shutdown) 
+    Apple Watch Series 11 (42mm) (8BC6FE79-476B-42D5-A6A6-22C36EF6D89C) (Shutdown) 
+    Apple Watch Ultra 3 (49mm) (08C88370-4341-4AAE-8F6E-4F4D8F741378) (Shutdown) 
+    Apple Watch SE 3 (44mm) (7CCDED4B-F4CB-4F6B-A137-3E6310EA25F3) (Shutdown) 
+    Apple Watch SE 3 (40mm) (96C795E9-4591-4CF0-AB84-703BF2E31381) (Shutdown) 
+-- visionOS 26.2 --
+    Apple Vision Pro (9C68DD66-0BB9-4C08-B7BF-9A91F7FA547B) (Shutdown) 
+-- visionOS 26.4 --
+    Apple Vision Pro (3D06C66B-45C9-4FD2-B9AF-D85A173707A6) (Shutdown) 
+-- visionOS 26.5 --
+    Apple Vision Pro (6023AC0F-9C55-4618-95B5-F1C3C17A5E60) (Shutdown) 

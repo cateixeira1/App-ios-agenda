@@ -1,0 +1,45 @@
+App: build/Build/Products/Debug-iphonesimulator/Expediente.app
+Monitoring boot status for iPhone 17 (8EBAA496-5654-45BF-897F-3C4FD73935F1).
+Device already booted, nothing to do.
+
+ok: 01-inicio
+ok: 02-agenda
+ok: 03-agendar-sugestao
+ok: 04-desmarcar
+ok: 05-remarcar
+ok: 06-clientes
+ok: 07-cliente
+ok: 08-historico
+ok: 09-anotacao
+ok: 10-anotacoes
+ok: 11-financeiro
+ok: 12-pacotes
+ok: 13-pacote
+ok: 14-despesas
+ok: 15-relatorios
+ok: 16-notas-fiscais
+ok: 17-ajustes
+ok: 18-registro-de-acessos
+ok: 19-tags
+ok: 20-cadastro
+ok: 21-area
+ok: 22-aviso-lgpd
+ok: 23-chave-de-recuperacao
+ok: 24-bloqueio
+ok: 25-menu-de-funcoes
+ok: 26-agenda-semana
+ok: 27-agenda-mes
+ok: 28-retorno
+ok: 29-whatsapp-sem-telefone
+ok: 30-agendar-cliente-novo
+ok: 31-perfil
+ok: 32-dias-e-feriados
+ok: 33-mensagens-whatsapp
+ok: 34-pix
+ok: 35-nfse
+ok: 36-nfse-ajustes
+ok: 37-cabecalho-e-rodape
+ok: 38-certificados
+ok: 39-inicio-escuro
+ok: 40-agenda-escura
+ok: 41-semana-escura

@@ -1,0 +1,1030 @@
+Command line invocation:
+    /Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild test -project Expediente.xcodeproj -scheme Expediente -destination id=8EBAA496-5654-45BF-897F-3C4FD73935F1 -derivedDataPath build -resultBundlePath TestResults.xcresult CODE_SIGNING_ALLOWED=NO
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+
+Writing result bundle at path:
+	/Users/runner/work/App-ios-agenda/App-ios-agenda/TestResults.xcresult
+
+--- xcodebuild: WARNING: Using the first of multiple matching destinations:
+{ platform:iOS Simulator, arch:arm64, id:8EBAA496-5654-45BF-897F-3C4FD73935F1, OS:26.5, name:iPhone 17 }
+{ platform:iOS Simulator, arch:x86_64, id:8EBAA496-5654-45BF-897F-3C4FD73935F1, OS:26.5, name:iPhone 17 }
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (2 targets)
+    Target 'ExpedienteTests' in project 'Expediente'
+        ➜ Explicit dependency on target 'Expediente' in project 'Expediente'
+    Target 'Expediente' in project 'Expediente' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode_26.6.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Assets.xcassets
+
+ExecuteExternalTool /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+ExecuteExternalTool /Applications/Xcode_26.6.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+Build description signature: bfd6d865f7c5f0c6343b6db2637f752b
+Build description path: /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/XCBuildData/bfd6d865f7c5f0c6343b6db2637f752b.xcbuilddata
+ClangStatCache /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk /Users/runner/work/App-ios-agenda/App-ios-agenda/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448ff45c64a1807a658693f2a61704f17a36.sdkstatcache
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente.xcodeproj
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -o /Users/runner/work/App-ios-agenda/App-ios-agenda/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448ff45c64a1807a658693f2a61704f17a36.sdkstatcache
+
+CreateBuildDirectory /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente.xcodeproj
+    builtin-create-build-directory /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products
+
+CreateBuildDirectory /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente.xcodeproj
+    builtin-create-build-directory /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente-e36dc874d6fff124e60e2ea99635f876-VFS-iphonesimulator/all-product-headers.yaml
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente.xcodeproj
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente-e36dc874d6fff124e60e2ea99635f876-VFS-iphonesimulator/all-product-headers.yaml
+
+CreateBuildDirectory /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente.xcodeproj
+    builtin-create-build-directory /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator
+
+CreateBuildDirectory /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente.xcodeproj
+    builtin-create-build-directory /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/ExplicitPrecompiledModules
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente.xcodeproj
+    builtin-create-build-directory /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente.xcodeproj
+    builtin-create-build-directory /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/empty-ExpedienteTests.plist (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/empty-ExpedienteTests.plist
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests_const_extract_protocols.json (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests.SwiftFileList (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests.SwiftFileList
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests.SwiftConstValuesFileList (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests.LinkFileList (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests.LinkFileList
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests-OutputFileMap.json (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests.hmap (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests.hmap
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests.DependencyStaticMetadataFileList (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests.DependencyMetadataFileList (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests-project-headers.hmap (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests-project-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests-own-target-headers.hmap (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests-generated-files.hmap (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests-generated-files.hmap
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests-all-target-headers.hmap (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests-all-non-framework-target-headers.hmap (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente_const_extract_protocols.json (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente.SwiftFileList (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente.SwiftFileList
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente.SwiftConstValuesFileList (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente.LinkFileList (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente.LinkFileList
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente-OutputFileMap.json (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente.hmap (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente.hmap
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente.DependencyStaticMetadataFileList (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente.DependencyMetadataFileList (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-project-headers.hmap (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-project-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-own-target-headers.hmap (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-generated-files.hmap (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-generated-files.hmap
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-all-target-headers.hmap (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-all-non-framework-target-headers.hmap (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-DebugDylibPath-normal-arm64.txt (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-DebugDylibPath-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-DebugDylibInstallName-normal-arm64.txt (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    write-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-DebugDylibInstallName-normal-arm64.txt
+
+MkDir /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns/ExpedienteTests.xctest (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    /bin/mkdir -p /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns/ExpedienteTests.xctest
+
+MkDir /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    /bin/mkdir -p /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns
+
+MkDir /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Frameworks (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    /bin/mkdir -p /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Frameworks
+
+MkDir /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    /bin/mkdir -p /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app
+
+Ld /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/__preview.dylib normal (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator -F/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator -install_name @rpath/Expediente.debug.dylib -Xlinker -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente_dependency_info.dat -o /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/__preview.dylib
+
+MkDir /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/assetcatalog_output/unthinned (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    /bin/mkdir -p /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/assetcatalog_output/unthinned
+
+MkDir /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/assetcatalog_output/thinned (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    /bin/mkdir -p /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/assetcatalog_output/thinned
+
+GenerateAssetSymbols /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Assets.xcassets (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    /Applications/Xcode_26.6.app/Contents/Developer/usr/bin/actool /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Assets.xcassets --compile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app --output-format human-readable-text --notices --warnings --export-dependency-info /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/assetcatalog_dependencies --output-partial-info-plist /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/assetcatalog_generated_info.plist --app-icon AppIcon --accent-color AccentColor --compress-pngs --enable-on-demand-resources YES --development-region pt-BR --target-device iphone --target-device ipad --minimum-deployment-target 17.0 --platform iphonesimulator --bundle-identifier br.com.colorsoftware.expediente --generate-swift-asset-symbol-extensions NO --generate-swift-asset-symbols /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/DerivedSources/GeneratedAssetSymbols.swift --generate-objc-asset-symbols /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/DerivedSources/GeneratedAssetSymbols.h --generate-asset-symbol-index /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/* com.apple.actool.compilation-results */
+/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/DerivedSources/GeneratedAssetSymbols.h
+/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/DerivedSources/GeneratedAssetSymbols.swift
+
+
+Copy /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Frameworks/libXCTestSwiftSupport.dylib /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Frameworks
+
+Copy /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Frameworks/libXCTestBundleInject.dylib /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestBundleInject.dylib (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestBundleInject.dylib /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Frameworks
+
+Copy /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Frameworks/XCUnit.framework /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUnit.framework (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUnit.framework /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Frameworks
+
+Copy /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Frameworks/XCUIAutomation.framework /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCUIAutomation.framework (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCUIAutomation.framework /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Frameworks
+
+Copy /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Frameworks/XCTestSupport.framework /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestSupport.framework (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestSupport.framework /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Frameworks
+
+Copy /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Frameworks/XCTestCore.framework /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestCore.framework (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestCore.framework /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Frameworks
+
+Copy /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Frameworks/XCTest.framework /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Frameworks
+
+Copy /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Frameworks/XCTAutomationSupport.framework /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Frameworks
+
+Copy /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Frameworks/Testing.framework /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/Testing.framework (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/Testing.framework /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Frameworks
+
+CompileAssetCatalogVariant thinned /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Assets.xcassets (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    /Applications/Xcode_26.6.app/Contents/Developer/usr/bin/actool /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Assets.xcassets --compile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/assetcatalog_output/thinned --output-format human-readable-text --notices --warnings --export-dependency-info /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/assetcatalog_dependencies_thinned --output-partial-info-plist /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/assetcatalog_generated_info.plist_thinned --app-icon AppIcon --accent-color AccentColor --compress-pngs --enable-on-demand-resources YES --filter-for-thinning-device-configuration iPhone18,3 --filter-for-device-os-version 26.5 --development-region pt-BR --target-device iphone --target-device ipad --minimum-deployment-target 17.0 --platform iphonesimulator
+/* com.apple.actool.compilation-results */
+/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/assetcatalog_generated_info.plist_thinned
+/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/assetcatalog_output/thinned/AppIcon60x60@2x.png
+/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/assetcatalog_output/thinned/AppIcon76x76@2x~ipad.png
+/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/assetcatalog_output/thinned/Assets.car
+
+
+SwiftDriver Expediente normal arm64 com.apple.xcode.tools.swift.compiler (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-SwiftDriver -- /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Expediente -Onone @/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator -F /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/App-ios-agenda/App-ios-agenda/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448ff45c64a1807a658693f2a61704f17a36.sdkstatcache -output-file-map /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-generated-files.hmap -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-own-target-headers.hmap -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-project-headers.hmap -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente-Swift.h -working-directory /Users/runner/work/App-ios-agenda/App-ios-agenda -experimental-emit-module-separately -disable-cmo
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/_Builtin_stdbool-AEA22JG5XJRMR6TX55KKFYINE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/_Builtin_float-F1JGN5C5MRYEXCPZOZ5ST9MI6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/_AvailabilityInternal-7WRT0RZKH5URZ40YV6665KEFS.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/SwiftShims-2PG5EX3TIZSVOM0RS6ZGGIZBB.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/_Builtin_stdarg-BDN7ITGVS3BPMQE1PVYGUBQ7Y.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/_Builtin_stddef-8T9FBXTWJTPB9KTACP3ATM7XK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/_SwiftConcurrencyShims-98H52S6AHTWUFQSMHSYMV1VRE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/DeveloperToolsSupport-AQPFR3ACMEGN0KLZ8A73X1UAM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/ptrauth-2E3CG06HQ02T45WKOCH0EJHU5.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/ptrcheck-B8WDCGXJ34N9I6BDAD9F6KQKP.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/_DarwinFoundation1-21O9LDDI03TP7LC4FJUJT8L1B.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/ExtensionFoundation-5W7MBTJDZ4ZLY07IV53Z8PTJB.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/_DarwinFoundation2-C54ON1XA4YBHJB80X9VMVDVBI.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/_Builtin_limits-70O5J8RIPHLGP5NLYXC038Y4B.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/sys_types-2PZFNLYTSO7MR2DKB0ODKHP8E.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/_Builtin_stdint-8RQOLGIY3W57IUAM7I4L2Q3OD.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/_Builtin_tgmath-4H7FMISHUSW8CR4SNORA77H1H.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/_Builtin_stdatomic-5IGT9N9QCI3LUJYXTEYKMGEOE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/_Builtin_intrinsics-8IIQ566PKX4N81125VVXILUV0.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/_DarwinFoundation3-6ZCV32J8SK50J8A43WO4MX0GS.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/_Builtin_inttypes-8XYP9E8779VK1VCT03WQ8A88L.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/CommonCrypto-F3D5TDLB6F5H46IU9UZLW9U7Q.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/Darwin-BRA6G4IYJWVVYTLXE79ZYZE4L.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/simd-9JQIB96XTFPZCUNXC7U38LOM4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/Spatial-293N3L4CENMMDWLFUYEH9BQ30.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/MachO-2ZN7TQTF0UNVZE6WP5X7OA94M.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/Compression-5777UVQPZBOYJBUTR9Z56XXT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/ObjectiveC-5Z0JHJAOA0GUBGUWNP4O5UOWA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/os_object-VZWJIQEXECPRZ2WXKP7YOBNV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/os_workgroup-5RRBVATWQVVLLNHMIHEAFXM63.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/Dispatch-ES04AAGKVKAS1VUCUP6XUDMK5.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/dnssd-EYAY8WDPFDQMMJKPV0IILI4PQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/XPC-94II5W2DQO9B8YPG8W3W3KT8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/CoreFoundation-3EWPNSA02DH0GYO3WJKRKFS2F.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/os-MGH7DWAS4LJ912XFM9IL7FYS.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/CoreGraphics-4E51OWLI3Y7VESV69GFNNR7PF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/CFNetwork-CWJ9IQVTSH487HGJU58AGNNSN.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/Security-DCV4QY8O0SUAA1YGZATZUU3J7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/CoreAudioTypes-1MDD3OD75GUWYFXCHT1HFBW2M.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/CoreText-1GQG1U0NS1S4FJ0V97HF81S7M.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/ImageIO-9R2DAB8KJ43W5PYZ1ODQU61Y6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/CoreAudio-16SESRIQNMG59I0BS1E6UMDT8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/Foundation-535MB75N03ELQ4IWAMRH5520Z.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/Accessibility-6R8T9G3HW6TUW1WC0ZLEJAEL.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/UserNotifications-1T9W35B07KGW5VZBNYRVMSVVJ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/Contacts-6FY41AXTN6L3Z941YHGXVIK9.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/IOSurface-3NVQCKTWXZJL9OPYPQLSG27Y1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/OSLog-8LCLD905J2L8JV3OP2DKR68HF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/FileProvider-8T4WZWMCJGPD75UTX3KTXX626.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/CoreData-E8MMP065JMDXP8GM7UINI7UET.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/AppIntents-38CA5RKVE9HYHWM4C15HDVOEQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/Network-5PLQUV4WVJ1M3EGG4WZ3Q363.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/UIUtilities-DFNJZUXBZBQ2QR5T864443D17.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/OpenGLES-CEUPJIZWZP4ZVCFIQEQ15V53S.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/DataDetection-BBYECNWGNDPS40R0XPA3SRRBP.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/Metal-4IEO6L8A6R6BF019GGMCFEH1V.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/CoreTransferable-7T475IB6LP6ZEOTS2KRF1UCK7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/_LocationEssentials-8TCH94X4CPVRXK3NS635JVM76.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/UniformTypeIdentifiers-79AU03VDQMO8KM9A0HMSRVC94.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/LocalAuthentication-2XR0JTUNEGNOKQDQV2FVDEDYW.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/CoreLocation-7P2XZBH99QV0NCXL7HWT5KTVZ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/CoreSpotlight-EZAHEYPZEVALOPGEVGC45DB0N.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/Symbols-1VKOZGN3TCG8U9H89SPV2TNZQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/QuickLookThumbnailing-3387G0Q75KQDZXIR8OUQS6G55.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/RelevanceKit-971ST3RZZVFDBU51RAPYTN7R5.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/CoreVideo-7SWE8PWQCWKN31GYVQBIVRW5O.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/AVRouting-A42GBZWP3E97XSYRSBK298QQD.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/CoreMIDI-4O1GQA0RBF5N6DV7JP2JEL8HC.pcm
+
+LinkAssetCatalog /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Assets.xcassets (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-linkAssetCatalog --thinned /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/assetcatalog_output/thinned --thinned-dependencies /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/assetcatalog_dependencies_thinned --thinned-info-plist-content /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/assetcatalog_generated_info.plist_thinned --unthinned /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/assetcatalog_output/unthinned --unthinned-dependencies /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/assetcatalog_dependencies_unthinned --unthinned-info-plist-content /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/assetcatalog_generated_info.plist_unthinned --output /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app --plist-output /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/assetcatalog_generated_info.plist
+note: Emplaced /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Assets.car (in target 'Expediente' from project 'Expediente')
+note: Emplaced /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/AppIcon60x60@2x.png (in target 'Expediente' from project 'Expediente')
+note: Emplaced /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/AppIcon76x76@2x~ipad.png (in target 'Expediente' from project 'Expediente')
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/CoreMedia-9SXSID1UR5FLQN0RUTWEOX51U.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/CoreImage-CJL466D3H2KWX6TWSZ2JJEAEF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/QuartzCore-9NVVH0SK50Q9GSAWV8F1KO5P.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/AudioToolbox-7YJ58WAA6YB8YSVXA6ITN2AET.pcm
+
+ProcessInfoPlistFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Info.plist /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Info.plist (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-infoPlistUtility /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/assetcatalog_generated_info.plist -o /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Info.plist
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/SwiftUICore-50K3UA996LEX4CQ63SF2BM0FV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/UIKit-DMH2Z5QEKBY1AREDXZC7OFZZF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/MediaToolbox-EBQPXJ7KQVC6Y5DHVYAVU4Q10.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/AVFAudio-858WOZSL6TEODYPUUJ8OEWDZK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/AVFoundation-AXFAW5P4RCY2SDH45PYUZP6VL.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/Photos-1JJLEP8PM71AI6KMNF980HI7I.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/ContactsUI-7JRVLGXYPDWLHLH8UZ03U854X.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/SwiftUI-ONI6VGHYMCZO4EBVOMXLUUXT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/ExtensionKit-ACT0U9PRPCGINAHL0L05UEG63.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/PDFKit-CPOM8DJS877HNFXIZZK7IAC18.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/PhotosUI-AR8YAQ409GFF81WNXTWRNTZXE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/QuickLook-5IPT6E8C9M2RP6VZ0GTS12CXF.pcm
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ Expediente (in target 'Expediente' from project 'Expediente')
+
+EmitSwiftModule normal arm64 (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 Compiling\ RichTextEditor.swift,\ RootView.swift,\ Scheduling.swift,\ Services.swift,\ SettingsExtras.swift,\ SettingsViews.swift,\ Shared.swift,\ Store.swift,\ StoreExtras.swift,\ Theme.swift,\ TodayFocus.swift,\ Vault.swift,\ WhatsApp.swift,\ GeneratedAssetSymbols.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/RichTextEditor.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/RootView.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Scheduling.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Services.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/SettingsExtras.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/SettingsViews.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Shared.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Store.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/StoreExtras.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/Theme.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/TodayFocus.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Vault.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/WhatsApp.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'Expediente' from project 'Expediente')
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/RichTextEditor.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/RootView.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Scheduling.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Services.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/SettingsExtras.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/SettingsViews.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Shared.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Store.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/StoreExtras.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/Theme.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/TodayFocus.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Vault.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/WhatsApp.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 Compiling\ Finance.swift,\ FinanceViews.swift,\ Formatters.swift,\ HomeView.swift,\ Keychain.swift,\ Masks.swift,\ Models.swift,\ NfseDps.swift,\ NfseService.swift,\ NotesViews.swift,\ PDFExporter.swift,\ PackagesViews.swift,\ PatientViews.swift,\ Pix.swift,\ RichTextCodec.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Finance.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/FinanceViews.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Formatters.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/HomeView.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Keychain.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Masks.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Models.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/NfseDps.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/NfseService.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/NotesViews.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/PDFExporter.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/PackagesViews.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/PatientViews.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Pix.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/RichTextCodec.swift (in target 'Expediente' from project 'Expediente')
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Finance.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/FinanceViews.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Formatters.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/HomeView.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Keychain.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Masks.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Models.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/NfseDps.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/NfseService.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/NotesViews.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/PDFExporter.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/PackagesViews.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/PatientViews.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Pix.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/RichTextCodec.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 Compiling\ AccessViews.swift,\ AgendaViews.swift,\ AppState.swift,\ AppointmentEditor.swift,\ Asn1.swift,\ AuditLog.swift,\ Backup.swift,\ BusinessDays.swift,\ CalendarGrids.swift,\ CertificateKeys.swift,\ Defaults.swift,\ DemoSeeder.swift,\ ExpedienteApp.swift,\ ExportFlow.swift,\ Fields.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/AccessViews.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/AgendaViews.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/App/AppState.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/AppointmentEditor.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Asn1.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/AuditLog.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Backup.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/BusinessDays.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/CalendarGrids.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/CertificateKeys.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Defaults.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/App/DemoSeeder.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/App/ExpedienteApp.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/ExportFlow.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/Fields.swift (in target 'Expediente' from project 'Expediente')
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/AccessViews.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/AgendaViews.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/App/AppState.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/AppointmentEditor.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Asn1.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/AuditLog.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Backup.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/BusinessDays.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/CalendarGrids.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/CertificateKeys.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/Core/Defaults.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/App/DemoSeeder.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/App/ExpedienteApp.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/ExportFlow.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/Expediente/UI/Fields.swift (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for Expediente (in target 'Expediente' from project 'Expediente')
+
+SwiftDriver\ Compilation\ Requirements Expediente normal arm64 com.apple.xcode.tools.swift.compiler (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Expediente -Onone @/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator -F /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/App-ios-agenda/App-ios-agenda/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448ff45c64a1807a658693f2a61704f17a36.sdkstatcache -output-file-map /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-generated-files.hmap -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-own-target-headers.hmap -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-project-headers.hmap -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente-Swift.h -working-directory /Users/runner/work/App-ios-agenda/App-ios-agenda -experimental-emit-module-separately -disable-cmo
+
+SwiftDriverJobDiscovery normal arm64 Compiling AccessViews.swift, AgendaViews.swift, AppState.swift, AppointmentEditor.swift, Asn1.swift, AuditLog.swift, Backup.swift, BusinessDays.swift, CalendarGrids.swift, CertificateKeys.swift, Defaults.swift, DemoSeeder.swift, ExpedienteApp.swift, ExportFlow.swift, Fields.swift (in target 'Expediente' from project 'Expediente')
+
+SwiftMergeGeneratedHeaders /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/DerivedSources/Expediente-Swift.h /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente-Swift.h (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-swiftHeaderTool -arch arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente-Swift.h -o /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/DerivedSources/Expediente-Swift.h
+
+Copy /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.swiftmodule/arm64-apple-ios-simulator.swiftmodule /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente.swiftmodule (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente.swiftmodule /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.swiftmodule/arm64-apple-ios-simulator.swiftmodule
+
+Copy /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.swiftmodule/arm64-apple-ios-simulator.swiftdoc /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente.swiftdoc (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente.swiftdoc /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.swiftmodule/arm64-apple-ios-simulator.swiftdoc
+
+Copy /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.swiftmodule/arm64-apple-ios-simulator.abi.json /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente.abi.json (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente.abi.json /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.swiftmodule/arm64-apple-ios-simulator.abi.json
+
+Copy /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente.swiftsourceinfo (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente.swiftsourceinfo /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo
+
+SwiftDriver ExpedienteTests normal arm64 com.apple.xcode.tools.swift.compiler (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-SwiftDriver -- /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name ExpedienteTests -Onone @/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests.SwiftFileList -DDEBUG -plugin-path /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator -F /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk/Developer/Library/Frameworks -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/App-ios-agenda/App-ios-agenda/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448ff45c64a1807a658693f2a61704f17a36.sdkstatcache -output-file-map /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests-generated-files.hmap -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests-own-target-headers.hmap -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests-project-headers.hmap -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests-Swift.h -working-directory /Users/runner/work/App-ios-agenda/App-ios-agenda -experimental-emit-module-separately -disable-cmo
+
+SwiftDriverJobDiscovery normal arm64 Compiling RichTextEditor.swift, RootView.swift, Scheduling.swift, Services.swift, SettingsExtras.swift, SettingsViews.swift, Shared.swift, Store.swift, StoreExtras.swift, Theme.swift, TodayFocus.swift, Vault.swift, WhatsApp.swift, GeneratedAssetSymbols.swift (in target 'Expediente' from project 'Expediente')
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCUIAutomation-4VXOEY3X3J8NH2IY1D330AWHN.pcm
+
+SwiftExplicitDependencyCompileModuleFromInterface arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCUIAutomation-30R8H76WW15W0.swiftmodule
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCTest-CMX30APLVFXKSMK7VWBSYSXKN.pcm
+
+SwiftExplicitDependencyCompileModuleFromInterface arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCTest-AXHMGQHVBKN5.swiftmodule
+
+SwiftDriverJobDiscovery normal arm64 Compiling Finance.swift, FinanceViews.swift, Formatters.swift, HomeView.swift, Keychain.swift, Masks.swift, Models.swift, NfseDps.swift, NfseService.swift, NotesViews.swift, PDFExporter.swift, PackagesViews.swift, PatientViews.swift, Pix.swift, RichTextCodec.swift (in target 'Expediente' from project 'Expediente')
+
+SwiftDriver\ Compilation Expediente normal arm64 com.apple.xcode.tools.swift.compiler (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-Swift-Compilation -- /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Expediente -Onone @/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator -F /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/App-ios-agenda/App-ios-agenda/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448ff45c64a1807a658693f2a61704f17a36.sdkstatcache -output-file-map /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-generated-files.hmap -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-own-target-headers.hmap -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-project-headers.hmap -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente-Swift.h -working-directory /Users/runner/work/App-ios-agenda/App-ios-agenda -experimental-emit-module-separately -disable-cmo
+
+Ld /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Expediente.debug.dylib normal (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator -F/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator -filelist /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente.LinkFileList -install_name @rpath/Expediente.debug.dylib -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente.swiftmodule @/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente-linker-args.resp -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -o /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Expediente.debug.dylib
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ ExpedienteTests (in target 'ExpedienteTests' from project 'Expediente')
+
+EmitSwiftModule normal arm64 (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 Compiling\ CoreTests.swift,\ ExpedienteFeatureTests.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/ExpedienteTests/CoreTests.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/ExpedienteTests/ExpedienteFeatureTests.swift (in target 'ExpedienteTests' from project 'Expediente')
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/ExpedienteTests/CoreTests.swift (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/ExpedienteTests/ExpedienteFeatureTests.swift (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftCompile normal arm64 Compiling\ TestCertificates.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/ExpedienteTests/TestCertificates.swift (in target 'ExpedienteTests' from project 'Expediente')
+
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/ExpedienteTests/TestCertificates.swift (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for ExpedienteTests (in target 'ExpedienteTests' from project 'Expediente')
+
+SwiftDriver\ Compilation\ Requirements ExpedienteTests normal arm64 com.apple.xcode.tools.swift.compiler (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name ExpedienteTests -Onone @/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests.SwiftFileList -DDEBUG -plugin-path /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator -F /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk/Developer/Library/Frameworks -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/App-ios-agenda/App-ios-agenda/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448ff45c64a1807a658693f2a61704f17a36.sdkstatcache -output-file-map /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests-generated-files.hmap -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests-own-target-headers.hmap -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests-project-headers.hmap -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests-Swift.h -working-directory /Users/runner/work/App-ios-agenda/App-ios-agenda -experimental-emit-module-separately -disable-cmo
+
+SwiftDriverJobDiscovery normal arm64 Compiling TestCertificates.swift (in target 'ExpedienteTests' from project 'Expediente')
+
+SwiftCompile normal arm64 Compiling\ NewFeatureTests.swift /Users/runner/work/App-ios-agenda/App-ios-agenda/ExpedienteTests/NewFeatureTests.swift (in target 'ExpedienteTests' from project 'Expediente')
+SwiftCompile normal arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/ExpedienteTests/NewFeatureTests.swift (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    
+
+SwiftMergeGeneratedHeaders /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/DerivedSources/ExpedienteTests-Swift.h /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests-Swift.h (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-swiftHeaderTool -arch arm64 /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests-Swift.h -o /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/DerivedSources/ExpedienteTests-Swift.h
+
+Copy /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/ExpedienteTests.swiftmodule/arm64-apple-ios-simulator.swiftmodule /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests.swiftmodule (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests.swiftmodule /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/ExpedienteTests.swiftmodule/arm64-apple-ios-simulator.swiftmodule
+
+Copy /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/ExpedienteTests.swiftmodule/arm64-apple-ios-simulator.swiftdoc /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests.swiftdoc (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests.swiftdoc /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/ExpedienteTests.swiftmodule/arm64-apple-ios-simulator.swiftdoc
+
+Copy /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/ExpedienteTests.swiftmodule/arm64-apple-ios-simulator.abi.json /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests.abi.json (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests.abi.json /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/ExpedienteTests.swiftmodule/arm64-apple-ios-simulator.abi.json
+
+Copy /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/ExpedienteTests.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests.swiftsourceinfo (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests.swiftsourceinfo /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/ExpedienteTests.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo
+
+ConstructStubExecutorLinkFileList /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-ExecutorLinkFileList-normal-arm64.txt (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    construct-stub-executor-link-file-list /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Expediente.debug.dylib /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-ExecutorLinkFileList-normal-arm64.txt
+note: Using stub executor library with Swift entry point. (in target 'Expediente' from project 'Expediente')
+
+Ld /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Expediente normal (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -isysroot /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator -F/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-DebugDylibPath-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-DebugDylibInstallName-normal-arm64.txt -Xlinker -filelist -Xlinker /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente-ExecutorLinkFileList-normal-arm64.txt /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Expediente.debug.dylib -o /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Expediente
+
+ExtractAppIntentsMetadata (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.6.109.0.IEOXWj/Metal.xctoolchain --module-name Expediente --sdk-root /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk --xcode-version 17F113 --platform-family iOS --deployment-target 17.0 --bundle-identifier br.com.colorsoftware.expediente --output /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app --target-triple arm64-apple-ios17.0-simulator --binary-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Expediente --dependency-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente_dependency_info.dat --stringsdata-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente.SwiftFileList --metadata-file-list /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente.DependencyMetadataFileList --static-metadata-file-list /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente.DependencyStaticMetadataFileList --swift-const-vals-list /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Objects-normal/arm64/Expediente.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-11-24 06:03:24.937 appintentsmetadataprocessor[2521:11143] Starting appintentsmetadataprocessor export
+2026-11-24 06:03:25.044 appintentsmetadataprocessor[2521:11143] Extracted no relevant App Intents symbols, skipping writing output
+
+CopySwiftLibs /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Expediente.debug.dylib --scan-folder /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Frameworks --scan-folder /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns --scan-folder /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/SystemExtensions --scan-folder /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Extensions --platform iphonesimulator --toolchain /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.6.109.0.IEOXWj/Metal.xctoolchain --toolchain /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+Ignoring --strip-bitcode because --sign was not passed
+
+AppIntentsSSUTraining (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Info.plist --temp-dir-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/ssu --bundle-id br.com.colorsoftware.expediente --product-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app --extracted-metadata-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Metadata.appintents --metadata-file-list /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/Expediente.build/Expediente.DependencyMetadataFileList --source-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Info.plist --archive-ssu-assets
+2026-11-24 06:03:25.180 appintentsnltrainingprocessor[2547:11202] Parsing options for appintentsnltrainingprocessor
+2026-11-24 06:03:25.185 appintentsnltrainingprocessor[2547:11202] Starting AppIntents SSU YAML Generation
+2026-11-24 06:03:25.194 appintentsnltrainingprocessor[2547:11202] No AppShortcuts found - Skipping.
+
+ProcessInfoPlistFile /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns/ExpedienteTests.xctest/Info.plist /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/empty-ExpedienteTests.plist (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-infoPlistUtility /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/empty-ExpedienteTests.plist -producttype com.apple.product-type.bundle.unit-test -expandbuildsettings -format binary -platform iphonesimulator -o /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns/ExpedienteTests.xctest/Info.plist
+
+SwiftDriverJobDiscovery normal arm64 Compiling CoreTests.swift, ExpedienteFeatureTests.swift (in target 'ExpedienteTests' from project 'Expediente')
+
+SwiftDriverJobDiscovery normal arm64 Compiling NewFeatureTests.swift (in target 'ExpedienteTests' from project 'Expediente')
+
+SwiftDriver\ Compilation ExpedienteTests normal arm64 com.apple.xcode.tools.swift.compiler (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-Swift-Compilation -- /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name ExpedienteTests -Onone @/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests.SwiftFileList -DDEBUG -plugin-path /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator -F /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk/Developer/Library/Frameworks -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/App-ios-agenda/App-ios-agenda/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448ff45c64a1807a658693f2a61704f17a36.sdkstatcache -output-file-map /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests-generated-files.hmap -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests-own-target-headers.hmap -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests-project-headers.hmap -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests-Swift.h -working-directory /Users/runner/work/App-ios-agenda/App-ios-agenda -experimental-emit-module-separately -disable-cmo
+
+Ld /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns/ExpedienteTests.xctest/ExpedienteTests normal (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -bundle -isysroot /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator -L/Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator -iframework /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -iframework /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk/Developer/Library/Frameworks -filelist /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests.LinkFileList -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @loader_path/Frameworks -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -bundle_loader /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Expediente -Xlinker -object_path_lto -Xlinker /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests.swiftmodule @/Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests-linker-args.resp -Xlinker -needed_framework -Xlinker XCTest -framework XCTest -Xlinker -needed-lXCTestSwiftSupport -lXCTestSwiftSupport /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/Expediente.debug.dylib -o /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns/ExpedienteTests.xctest/ExpedienteTests
+
+CopySwiftLibs /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns/ExpedienteTests.xctest (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns/ExpedienteTests.xctest/ExpedienteTests --scan-folder /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns/ExpedienteTests.xctest/Frameworks --scan-folder /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns/ExpedienteTests.xctest/PlugIns --scan-folder /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns/ExpedienteTests.xctest/SystemExtensions --scan-folder /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns/ExpedienteTests.xctest/Extensions --platform iphonesimulator --toolchain /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.6.109.0.IEOXWj/Metal.xctoolchain --toolchain /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns/ExpedienteTests.xctest/Frameworks --strip-bitcode --scan-executable /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib --strip-bitcode-tool /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+Ignoring --strip-bitcode because --sign was not passed
+
+ExtractAppIntentsMetadata (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.6.109.0.IEOXWj/Metal.xctoolchain --module-name ExpedienteTests --sdk-root /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk --xcode-version 17F113 --platform-family iOS --deployment-target 17.0 --bundle-identifier br.com.colorsoftware.expediente.tests --output /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns/ExpedienteTests.xctest --target-triple arm64-apple-ios17.0-simulator --binary-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns/ExpedienteTests.xctest/ExpedienteTests --dependency-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests_dependency_info.dat --stringsdata-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests.SwiftFileList --metadata-file-list /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests.DependencyMetadataFileList --static-metadata-file-list /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests.DependencyStaticMetadataFileList --swift-const-vals-list /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/Objects-normal/arm64/ExpedienteTests.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-11-24 06:03:26.120 appintentsmetadataprocessor[2618:11370] Starting appintentsmetadataprocessor export
+2026-11-24 06:03:26.130 appintentsmetadataprocessor[2618:11370] Extracted no relevant App Intents symbols, skipping writing output
+
+AppIntentsSSUTraining (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns/ExpedienteTests.xctest/Info.plist --temp-dir-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ssu --bundle-id br.com.colorsoftware.expediente.tests --product-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns/ExpedienteTests.xctest --extracted-metadata-path /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns/ExpedienteTests.xctest/Metadata.appintents --metadata-file-list /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Intermediates.noindex/Expediente.build/Debug-iphonesimulator/ExpedienteTests.build/ExpedienteTests.DependencyMetadataFileList --source-file /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns/ExpedienteTests.xctest/Info.plist --archive-ssu-assets
+2026-11-24 06:03:26.152 appintentsnltrainingprocessor[2619:11373] Parsing options for appintentsnltrainingprocessor
+2026-11-24 06:03:26.152 appintentsnltrainingprocessor[2619:11373] Starting AppIntents SSU YAML Generation
+2026-11-24 06:03:26.153 appintentsnltrainingprocessor[2619:11373] No AppShortcuts found - Skipping.
+
+RegisterExecutionPolicyException /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns/ExpedienteTests.xctest (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-RegisterExecutionPolicyException /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns/ExpedienteTests.xctest
+
+Touch /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns/ExpedienteTests.xctest (in target 'ExpedienteTests' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    /usr/bin/touch -c /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app/PlugIns/ExpedienteTests.xctest
+
+RegisterExecutionPolicyException /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-RegisterExecutionPolicyException /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app
+
+Validate /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    builtin-validationUtility /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app -shallow-bundle -infoplist-subpath Info.plist
+
+Touch /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app (in target 'Expediente' from project 'Expediente')
+    cd /Users/runner/work/App-ios-agenda/App-ios-agenda
+    /usr/bin/touch -c /Users/runner/work/App-ios-agenda/App-ios-agenda/build/Build/Products/Debug-iphonesimulator/Expediente.app
+
+Test Suite 'All tests' started at 2026-11-24 06:07:01.804.
+Test Suite 'ExpedienteTests.xctest' started at 2026-11-24 06:07:01.806.
+Test Suite 'AreaAndReceiptTests' started at 2026-11-24 06:07:01.806.
+Test Case '-[ExpedienteTests.AreaAndReceiptTests testBusinessAreaReplacesUnusedTagsAndSetsTerm]' started.
+Test Case '-[ExpedienteTests.AreaAndReceiptTests testBusinessAreaReplacesUnusedTagsAndSetsTerm]' passed (0.051 seconds).
+Test Case '-[ExpedienteTests.AreaAndReceiptTests testEveryAreaHasTagsAndReturnOrReplacement]' started.
+Test Case '-[ExpedienteTests.AreaAndReceiptTests testEveryAreaHasTagsAndReturnOrReplacement]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.AreaAndReceiptTests testNumberWords]' started.
+Test Case '-[ExpedienteTests.AreaAndReceiptTests testNumberWords]' passed (0.002 seconds).
+Test Case '-[ExpedienteTests.AreaAndReceiptTests testReceiptPDF]' started.
+Test Case '-[ExpedienteTests.AreaAndReceiptTests testReceiptPDF]' passed (0.200 seconds).
+Test Suite 'AreaAndReceiptTests' passed at 2026-11-24 06:07:02.062.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.254 (0.256) seconds
+Test Suite 'AuditLogTests' started at 2026-11-24 06:07:02.063.
+Test Case '-[ExpedienteTests.AuditLogTests testChainIsIntactAndPersists]' started.
+Test Case '-[ExpedienteTests.AuditLogTests testChainIsIntactAndPersists]' passed (0.007 seconds).
+Test Case '-[ExpedienteTests.AuditLogTests testDeletedFileIsDetected]' started.
+Test Case '-[ExpedienteTests.AuditLogTests testDeletedFileIsDetected]' passed (0.003 seconds).
+Test Case '-[ExpedienteTests.AuditLogTests testEditedEntryIsDetected]' started.
+Test Case '-[ExpedienteTests.AuditLogTests testEditedEntryIsDetected]' passed (0.004 seconds).
+Test Case '-[ExpedienteTests.AuditLogTests testPendingFailuresEnterTheChain]' started.
+Test Case '-[ExpedienteTests.AuditLogTests testPendingFailuresEnterTheChain]' passed (0.016 seconds).
+Test Case '-[ExpedienteTests.AuditLogTests testRemovedEntryIsDetected]' started.
+Test Case '-[ExpedienteTests.AuditLogTests testRemovedEntryIsDetected]' passed (0.009 seconds).
+Test Suite 'AuditLogTests' passed at 2026-11-24 06:07:03.034.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.039 (0.971) seconds
+Test Suite 'CalendarRuleTests' started at 2026-11-24 06:07:03.034.
+Test Case '-[ExpedienteTests.CalendarRuleTests testBreaksAndMonthlySeries]' started.
+Test Case '-[ExpedienteTests.CalendarRuleTests testBreaksAndMonthlySeries]' passed (0.048 seconds).
+Test Case '-[ExpedienteTests.CalendarRuleTests testNationalHolidays2026]' started.
+Test Case '-[ExpedienteTests.CalendarRuleTests testNationalHolidays2026]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.CalendarRuleTests testPatientHistoryBadges]' started.
+Test Case '-[ExpedienteTests.CalendarRuleTests testPatientHistoryBadges]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.CalendarRuleTests testSeriesPlanAdjustsHolidays]' started.
+Test Case '-[ExpedienteTests.CalendarRuleTests testSeriesPlanAdjustsHolidays]' passed (0.720 seconds).
+Test Case '-[ExpedienteTests.CalendarRuleTests testTagDurationAndFirstSession]' started.
+Test Case '-[ExpedienteTests.CalendarRuleTests testTagDurationAndFirstSession]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.CalendarRuleTests testWeekendGoesToPreviousBusinessDay]' started.
+Test Case '-[ExpedienteTests.CalendarRuleTests testWeekendGoesToPreviousBusinessDay]' passed (0.007 seconds).
+Test Suite 'CalendarRuleTests' passed at 2026-11-24 06:07:03.815.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.778 (0.781) seconds
+Test Suite 'CertificateAndSigningTests' started at 2026-11-24 06:07:03.815.
+Test Case '-[ExpedienteTests.CertificateAndSigningTests testDpsIsSignedAndVerifies]' started.
+2026-11-24 06:07:03.824348+0000 Expediente[4066:19415] [Security] __delegate_identifier__:Performance Diagnostics__:::____message__:This method should not be called on the main thread as it may lead to UI unresponsiveness.
+2026-11-24 06:07:03.832594+0000 Expediente[4066:19415] [Security] __delegate_identifier__:Performance Diagnostics__:::____message__:This method should not be called on the main thread as it may lead to UI unresponsiveness.
+2026-11-24 06:07:03.834020+0000 Expediente[4066:19415] [Security] __delegate_identifier__:Performance Diagnostics__:::____message__:This method should not be called on the main thread as it may lead to UI unresponsiveness.
+Test Case '-[ExpedienteTests.CertificateAndSigningTests testDpsIsSignedAndVerifies]' passed (0.102 seconds).
+Test Case '-[ExpedienteTests.CertificateAndSigningTests testGzipRoundTrip]' started.
+Test Case '-[ExpedienteTests.CertificateAndSigningTests testGzipRoundTrip]' passed (0.005 seconds).
+Test Case '-[ExpedienteTests.CertificateAndSigningTests testOpensLegacyAndModernPfx]' started.
+2026-11-24 06:07:03.927202+0000 Expediente[4066:19417] [Security] __delegate_identifier__:Performance Diagnostics__:::____message__:This method should not be called on the main thread as it may lead to UI unresponsiveness.
+2026-11-24 06:07:03.928630+0000 Expediente[4066:19417] [Security] __delegate_identifier__:Performance Diagnostics__:::____message__:This method should not be called on the main thread as it may lead to UI unresponsiveness.
+2026-11-24 06:07:03.928751+0000 Expediente[4066:19417] [Security] __delegate_identifier__:Performance Diagnostics__:::____message__:This method should not be called on the main thread as it may lead to UI unresponsiveness.
+2026-11-24 06:07:03.999429+0000 Expediente[4066:19417] [Security] __delegate_identifier__:Performance Diagnostics__:::____message__:This method should not be called on the main thread as it may lead to UI unresponsiveness.
+2026-11-24 06:07:03.999584+0000 Expediente[4066:19417] [Security] __delegate_identifier__:Performance Diagnostics__:::____message__:This method should not be called on the main thread as it may lead to UI unresponsiveness.
+2026-11-24 06:07:03.999715+0000 Expediente[4066:19417] [Security] __delegate_identifier__:Performance Diagnostics__:::____message__:This method should not be called on the main thread as it may lead to UI unresponsiveness.
+Test Case '-[ExpedienteTests.CertificateAndSigningTests testOpensLegacyAndModernPfx]' passed (0.076 seconds).
+Test Case '-[ExpedienteTests.CertificateAndSigningTests testRejectsInvalidDps]' started.
+Test Case '-[ExpedienteTests.CertificateAndSigningTests testRejectsInvalidDps]' passed (0.012 seconds).
+Test Suite 'CertificateAndSigningTests' passed at 2026-11-24 06:07:04.012.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.195 (0.197) seconds
+Test Suite 'ChargeAndReminderTests' started at 2026-11-24 06:07:04.013.
+Test Case '-[ExpedienteTests.ChargeAndReminderTests testChargeMessageCarriesTotalAndPix]' started.
+Test Case '-[ExpedienteTests.ChargeAndReminderTests testChargeMessageCarriesTotalAndPix]' passed (0.009 seconds).
+Test Case '-[ExpedienteTests.ChargeAndReminderTests testPlaces]' started.
+Test Case '-[ExpedienteTests.ChargeAndReminderTests testPlaces]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.ChargeAndReminderTests testRemindersBeforeEachAppointment]' started.
+Test Case '-[ExpedienteTests.ChargeAndReminderTests testRemindersBeforeEachAppointment]' passed (0.001 seconds).
+Test Suite 'ChargeAndReminderTests' passed at 2026-11-24 06:07:04.085.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.011 (0.072) seconds
+Test Suite 'CompatibilityTests' started at 2026-11-24 06:07:04.085.
+Test Case '-[ExpedienteTests.CompatibilityTests testJSONBackupIsRecognized]' started.
+Test Case '-[ExpedienteTests.CompatibilityTests testJSONBackupIsRecognized]' passed (0.059 seconds).
+Test Case '-[ExpedienteTests.CompatibilityTests testOldDataOpens]' started.
+Test Case '-[ExpedienteTests.CompatibilityTests testOldDataOpens]' passed (0.006 seconds).
+Test Suite 'CompatibilityTests' passed at 2026-11-24 06:07:04.151.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.065 (0.066) seconds
+Test Suite 'FinanceTests' started at 2026-11-24 06:07:04.152.
+Test Case '-[ExpedienteTests.FinanceTests testMoneyParsing]' started.
+Test Case '-[ExpedienteTests.FinanceTests testMoneyParsing]' passed (0.003 seconds).
+Test Case '-[ExpedienteTests.FinanceTests testSummary]' started.
+Test Case '-[ExpedienteTests.FinanceTests testSummary]' passed (0.004 seconds).
+Test Suite 'FinanceTests' passed at 2026-11-24 06:07:04.160.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.006 (0.008) seconds
+Test Suite 'PackageTests' started at 2026-11-24 06:07:04.195.
+Test Case '-[ExpedienteTests.PackageTests testFinanceCountsPackagePaymentAndExpenses]' started.
+Test Case '-[ExpedienteTests.PackageTests testFinanceCountsPackagePaymentAndExpenses]' passed (0.003 seconds).
+Test Case '-[ExpedienteTests.PackageTests testPackageAppointmentsAreNotChargedAndUseTheBalance]' started.
+Test Case '-[ExpedienteTests.PackageTests testPackageAppointmentsAreNotChargedAndUseTheBalance]' passed (0.003 seconds).
+Test Case '-[ExpedienteTests.PackageTests testScheduleSeriesFillsOnlyThePackageBalance]' started.
+Test Case '-[ExpedienteTests.PackageTests testScheduleSeriesFillsOnlyThePackageBalance]' passed (0.003 seconds).
+Test Suite 'PackageTests' passed at 2026-11-24 06:07:04.206.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.009 (0.011) seconds
+Test Suite 'PixTests' started at 2026-11-24 06:07:04.258.
+Test Case '-[ExpedienteTests.PixTests testAmountNameAndCityAreNormalized]' started.
+Test Case '-[ExpedienteTests.PixTests testAmountNameAndCityAreNormalized]' passed (0.005 seconds).
+Test Case '-[ExpedienteTests.PixTests testCentralBankExample]' started.
+Test Case '-[ExpedienteTests.PixTests testCentralBankExample]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.PixTests testKeyRecognition]' started.
+Test Case '-[ExpedienteTests.PixTests testKeyRecognition]' passed (0.001 seconds).
+Test Suite 'PixTests' passed at 2026-11-24 06:07:04.269.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.008 (0.010) seconds
+Test Suite 'RecordAndExportTests' started at 2026-11-24 06:07:04.269.
+Test Case '-[ExpedienteTests.RecordAndExportTests testBackupRoundTrip]' started.
+Test Case '-[ExpedienteTests.RecordAndExportTests testBackupRoundTrip]' passed (0.073 seconds).
+Test Case '-[ExpedienteTests.RecordAndExportTests testPDFAndPassword]' started.
+Test Case '-[ExpedienteTests.RecordAndExportTests testPDFAndPassword]' passed (0.144 seconds).
+Test Case '-[ExpedienteTests.RecordAndExportTests testRichTextRoundTrip]' started.
+Test Case '-[ExpedienteTests.RecordAndExportTests testRichTextRoundTrip]' passed (0.001 seconds).
+Test Suite 'RecordAndExportTests' passed at 2026-11-24 06:07:04.489.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.218 (0.220) seconds
+Test Suite 'RichTextFormatTests' started at 2026-11-24 06:07:04.489.
+Test Case '-[ExpedienteTests.RichTextFormatTests testFontsStylesAndColorsRoundTrip]' started.
+Test Case '-[ExpedienteTests.RichTextFormatTests testFontsStylesAndColorsRoundTrip]' passed (0.011 seconds).
+Test Case '-[ExpedienteTests.RichTextFormatTests testListPrefixes]' started.
+Test Case '-[ExpedienteTests.RichTextFormatTests testListPrefixes]' passed (0.003 seconds).
+Test Suite 'RichTextFormatTests' passed at 2026-11-24 06:07:04.505.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.014 (0.016) seconds
+Test Suite 'SchedulingTests' started at 2026-11-24 06:07:04.506.
+Test Case '-[ExpedienteTests.SchedulingTests testBiweeklyAndDefaultSpan]' started.
+Test Case '-[ExpedienteTests.SchedulingTests testBiweeklyAndDefaultSpan]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.SchedulingTests testConflicts]' started.
+Test Case '-[ExpedienteTests.SchedulingTests testConflicts]' passed (0.002 seconds).
+Test Case '-[ExpedienteTests.SchedulingTests testEndOfDayReminder]' started.
+Test Case '-[ExpedienteTests.SchedulingTests testEndOfDayReminder]' passed (0.002 seconds).
+Test Case '-[ExpedienteTests.SchedulingTests testMissedSessionsDoNotNeedNotes]' started.
+Test Case '-[ExpedienteTests.SchedulingTests testMissedSessionsDoNotNeedNotes]' passed (0.096 seconds).
+Test Case '-[ExpedienteTests.SchedulingTests testNameMatcher]' started.
+Test Case '-[ExpedienteTests.SchedulingTests testNameMatcher]' passed (0.003 seconds).
+Test Case '-[ExpedienteTests.SchedulingTests testWeeklyRecurrenceKeepsWeekdayAndTime]' started.
+Test Case '-[ExpedienteTests.SchedulingTests testWeeklyRecurrenceKeepsWeekdayAndTime]' passed (0.001 seconds).
+Test Suite 'SchedulingTests' passed at 2026-11-24 06:07:04.614.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.105 (0.108) seconds
+Test Suite 'StoreTests' started at 2026-11-24 06:07:04.614.
+Test Case '-[ExpedienteTests.StoreTests testDataSurvivesReopen]' started.
+Test Case '-[ExpedienteTests.StoreTests testDataSurvivesReopen]' passed (0.004 seconds).
+Test Case '-[ExpedienteTests.StoreTests testPaymentFillsPrice]' started.
+Test Case '-[ExpedienteTests.StoreTests testPaymentFillsPrice]' passed (0.003 seconds).
+Test Case '-[ExpedienteTests.StoreTests testScheduleCancelAndReschedule]' started.
+Test Case '-[ExpedienteTests.StoreTests testScheduleCancelAndReschedule]' passed (0.013 seconds).
+Test Suite 'StoreTests' passed at 2026-11-24 06:07:04.635.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.020 (0.022) seconds
+Test Suite 'VaultTests' started at 2026-11-24 06:07:04.636.
+Test Case '-[ExpedienteTests.VaultTests testAccentedPasswordNormalization]' started.
+Test Case '-[ExpedienteTests.VaultTests testAccentedPasswordNormalization]' passed (0.002 seconds).
+Test Case '-[ExpedienteTests.VaultTests testCreateAndUnlockWithPassword]' started.
+Test Case '-[ExpedienteTests.VaultTests testCreateAndUnlockWithPassword]' passed (0.003 seconds).
+Test Case '-[ExpedienteTests.VaultTests testPBKDF2KnownVector]' started.
+Test Case '-[ExpedienteTests.VaultTests testPBKDF2KnownVector]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.VaultTests testRecoveryKeyEncodingRoundTrip]' started.
+Test Case '-[ExpedienteTests.VaultTests testRecoveryKeyEncodingRoundTrip]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.VaultTests testRecoveryKeyUnlocksAndResetsPassword]' started.
+Test Case '-[ExpedienteTests.VaultTests testRecoveryKeyUnlocksAndResetsPassword]' passed (0.005 seconds).
+Test Case '-[ExpedienteTests.VaultTests testRegeneratedRecoveryKeyReplacesOldOne]' started.
+Test Case '-[ExpedienteTests.VaultTests testRegeneratedRecoveryKeyReplacesOldOne]' passed (0.003 seconds).
+Test Case '-[ExpedienteTests.VaultTests testSealedFilesAreNotReadableWithoutKey]' started.
+Test Case '-[ExpedienteTests.VaultTests testSealedFilesAreNotReadableWithoutKey]' passed (0.003 seconds).
+Test Case '-[ExpedienteTests.VaultTests testShortPasswordIsRefused]' started.
+Test Case '-[ExpedienteTests.VaultTests testShortPasswordIsRefused]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.VaultTests testWrongPasswordAndEmailAreRejected]' started.
+Test Case '-[ExpedienteTests.VaultTests testWrongPasswordAndEmailAreRejected]' passed (0.003 seconds).
+Test Suite 'VaultTests' passed at 2026-11-24 06:07:04.815.
+	 Executed 9 tests, with 0 failures (0 unexpected) in 0.021 (0.179) seconds
+Test Suite 'WhatsAppAndMaskTests' started at 2026-11-24 06:07:04.815.
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testButtonFromTodayOn]' started.
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testButtonFromTodayOn]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testDefaultMessageAndLink]' started.
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testDefaultMessageAndLink]' passed (0.002 seconds).
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testMasks]' started.
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testMasks]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testMoneyMask]' started.
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testMoneyMask]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testPriceByClientIgnoresTagPrice]' started.
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testPriceByClientIgnoresTagPrice]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testReturnHasNoChargeUnlessPriced]' started.
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testReturnHasNoChargeUnlessPriced]' passed (0.044 seconds).
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testTagPriceComesBeforePatientAndDefaultPrice]' started.
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testTagPriceComesBeforePatientAndDefaultPrice]' passed (0.003 seconds).
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testTodayFocusFollowsTheClock]' started.
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testTodayFocusFollowsTheClock]' passed (0.001 seconds).
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testWhatsAppMessageComesFromTagWhenSet]' started.
+Test Case '-[ExpedienteTests.WhatsAppAndMaskTests testWhatsAppMessageComesFromTagWhenSet]' passed (0.001 seconds).
+Test Suite 'WhatsAppAndMaskTests' passed at 2026-11-24 06:07:04.872.
+	 Executed 9 tests, with 0 failures (0 unexpected) in 0.053 (0.057) seconds
+Test Suite 'ExpedienteTests.xctest' passed at 2026-11-24 06:07:04.872.
+	 Executed 64 tests, with 0 failures (0 unexpected) in 1.795 (3.066) seconds
+Test Suite 'All tests' passed at 2026-11-24 06:07:04.873.
+	 Executed 64 tests, with 0 failures (0 unexpected) in 1.795 (3.068) seconds
+2026-11-24 06:08:06.875 xcodebuild[1542:8200] [MT] IDETestOperationsObserverDebug: 280.499 elapsed -- Testing started completed.
+2026-11-24 06:08:06.877 xcodebuild[1542:8200] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-11-24 06:08:06.877 xcodebuild[1542:8200] [MT] IDETestOperationsObserverDebug: 280.499 sec, +280.499 sec -- end
+
+Test session results, code coverage, and logs:
+	/Users/runner/work/App-ios-agenda/App-ios-agenda/TestResults.xcresult
+
+** TEST SUCCEEDED **
+
+Testing started
