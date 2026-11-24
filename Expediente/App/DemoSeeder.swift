@@ -163,7 +163,7 @@ enum DemoSeeder {
         store.schedule(online, rule: .none, until: nil)
 
         // Despesas do mês
-        store.saveExpense(Expense(date: at(-5, 9), title: "Aluguel da cadeira", amountCents: 80_000, category: .rent, method: .pix))
+        store.saveExpense(Expense(date: at(-5, 9), title: "Aluguel da cadeira", amountCents: 35_000, category: .rent, method: .pix))
         store.saveExpense(Expense(date: at(-3, 9), title: "Tintas e oxidantes", amountCents: 23_500, category: .supplies, method: .debit))
         store.saveExpense(Expense(date: at(-1, 9), title: "Impulsionamento no Instagram", amountCents: 5_000, category: .marketing, method: .credit))
 

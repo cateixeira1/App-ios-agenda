@@ -152,13 +152,15 @@ struct TagChip: View {
 struct StatusBadge: View {
     let text: String
     let color: Color
+    @Environment(\.colorScheme) private var scheme
     var body: some View {
+        // No escuro, texto claro sobre a cor mais forte: o texto colorido sumia no fundo dos cartões.
         Text(text)
             .font(.caption.weight(.semibold))
-            .foregroundStyle(color)
+            .foregroundStyle(scheme == .dark ? Color.white : color)
             .padding(.horizontal, 8)
             .padding(.vertical, 3)
-            .background(color.opacity(0.14), in: Capsule())
+            .background(color.opacity(scheme == .dark ? 0.6 : 0.14), in: Capsule())
     }
 }
 

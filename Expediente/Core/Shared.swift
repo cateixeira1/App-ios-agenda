@@ -54,7 +54,9 @@ enum Billing {
     static func isBillable(_ a: Appointment, in db: Database) -> Bool { !isNoCharge(a, in: db) }
 
     static func noChargeLabel(_ a: Appointment, in db: Database) -> String {
-        if let p = db.package(a.packageID) { return "Pacote: \(p.title)" }
+        if let p = db.package(a.packageID) {
+            return NameMatcher.normalize(p.title).hasPrefix("pacote") ? p.title : "Pacote: \(p.title)"
+        }
         return "Retorno sem custo"
     }
 }
